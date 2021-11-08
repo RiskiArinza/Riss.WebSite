@@ -152,6 +152,7 @@ ul li.active a {
 }
 
 .aplikasi h2 {
+    text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: 15px;
@@ -164,6 +165,7 @@ ul li.active a {
 }
 
 .aplikasi h3 {
+    text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: 12px;
@@ -261,6 +263,7 @@ ul li.active a {
 
 /* Aplikasi Videoder */
 .halvideoderapp h2 {
+    text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: 15px;
@@ -274,6 +277,7 @@ ul li.active a {
 }
 
 .halvideoderapp h3 {
+    text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: 12px;
@@ -422,7 +426,7 @@ ul li.active a {
 }
 
 /* End Tampilan Videoder */
-
+/* Link Videoder */
 .videotutor ul {
     position: absolute;
     width: 540px;
@@ -460,6 +464,17 @@ ul li.active a {
     margin-top: 5px;
 }
 
+.videotutor h3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 5px:
+}
+
 .videotutor p {
     text-align: center;
     font-family: sans-serif;
@@ -477,7 +492,7 @@ ul li.active a {
     width: auto;
     height: 80px;
     left: 457px;
-    top: 2110px;
+    top: 2120px;
 }
-
+/* End Link Videoder */
 /* End Aplikasi Videoder */
