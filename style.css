@@ -302,6 +302,31 @@ ul li.active a {
 /* End Aplikasi Videoder */
 /* End Halaman Aplikasi */
 
+/* Halaman Gambar */
+.halgambar ul {
+    position: absolute;
+    width: 588px;
+    height: 838px;
+    left: 426px;
+    top: 113px;
+
+    background: #252734;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.sliderpicture img {
+    position: absolute;
+    width: 516px;
+    height: 108px;
+    left: 457px;
+    top: 132px;
+    background-color: transparent;
+
+    border-radius: 5px;
+}
+
+/* End Halaman Gambar */
 
 /* Aplikasi Videoder */
 .backgroundlvideoder ul {
@@ -494,5 +519,6 @@ ul li.active a {
     left: 457px;
     top: 2120px;
 }
+
 /* End Link Videoder */
 /* End Aplikasi Videoder */
