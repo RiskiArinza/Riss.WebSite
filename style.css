@@ -1415,7 +1415,7 @@ ul li.active a {
     /* End Aplikasi Videoder */
 }
 
-@media (max-width: 389px) {
+@media (max-width: 578px) {
     * {
         background-color: #252734;
     }
@@ -1426,7 +1426,7 @@ ul li.active a {
         position: absolute;
         width: 335px;
         height: 56px;
-        left: 17px;
+        left: 10px;
         top: 15px;
 
         background: #252734;
@@ -1468,7 +1468,7 @@ ul li.active a {
         position: absolute;
         width: auto;
         height: 40px;
-        left: 270px;
+        left: 265px;
         top: 23px;
         background-color: transparent;
     }
@@ -1485,7 +1485,7 @@ ul li.active a {
         position: absolute;
         width: 335px;
         height: 1950px;
-        left: 17px;
+        left: 10px;
         top: 90px;
 
         background: #252734;
@@ -1542,7 +1542,7 @@ ul li.active a {
         position: absolute;
         width: 50px;
         height: 50px;
-        left: 157px;
+        left: 150px;
         top: 155px;
         background-color: transparent;
 
@@ -1554,7 +1554,7 @@ ul li.active a {
         position: absolute;
         width: auto;
         height: 215px;
-        left: 129px;
+        left: 122px;
         top: 375px;
         background-color: transparent;
     }
@@ -1563,7 +1563,7 @@ ul li.active a {
         position: absolute;
         width: auto;
         height: 250px;
-        left: 43px;
+        left: 36px;
         top: 620px;
         background-color: transparent;
     }
@@ -1572,7 +1572,7 @@ ul li.active a {
         position: absolute;
         width: auto;
         height: 250px;
-        left: 43px;
+        left: 36px;
         top: 900px;
     }
 
@@ -1580,7 +1580,7 @@ ul li.active a {
         position: absolute;
         width: auto;
         height: 250px;
-        left: 43px;
+        left: 36px;
         top: 1180px;
     }
 
@@ -1588,7 +1588,7 @@ ul li.active a {
         position: absolute;
         width: auto;
         height: 250px;
-        left: 43px;
+        left: 36px;
         top: 1460px;
     }
 
@@ -1598,7 +1598,7 @@ ul li.active a {
         position: absolute;
         width: 370px;
         height: 15px;
-        left: 0px;
+        left: -7px;
         top: 1730px;
         background-color: transparent;
     }
@@ -1673,8 +1673,8 @@ ul li.active a {
         position: absolute;
         width: auto;
         height: 75px;
-        left: 40px;
-        top: 1910px;
+        left: 32px;
+        top: 1907px;
     }
 
     .videoder a h3 p {
