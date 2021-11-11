@@ -551,17 +551,22 @@ ul li.active a {
     position: absolute;
     width: auto;
     height: 80px;
-    left: 457px;
+    left: 465px;
     top: 2120px;
+}
+
+.videoder a h3 {
+    background-color: transparent;
 }
 
 .videoder a h3 p {
     font-family: sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    margin: 20px;
-    margin-top: 500px;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 35px;
+    margin-left: 210px;
+    margin-top: 1730px;
 
     background-color: transparent;
     color: #FFFFFF;
@@ -571,13 +576,287 @@ ul li.active a {
 /* End Aplikasi Videoder */
 
 /* Web Responsive */
-@media (max-width: 1200px) {}
+@media (max-width: 1080px) and (min-width: 690px) {
+    * {
+        background-color: #252734;
+    }
 
-@media (max-width: 992px) {}
 
-@media (max-width: 768px) {}
+    /* Navbar */
+    .navbar ul {
+        position: absolute;
+        width: 588px;
+        height: 65px;
+        left: 83px;
+        top: 15px;
 
-@media (max-width: 576px) {
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        background-color: transparent;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 6px 16px;
+        border: 1px solid #707070;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 13px;
+        transition: 0.6s;
+        margin: 5px;
+        font-size: 12px;
+        background-color: #252734;
+    }
+
+    .navbar ul li a:hover {
+        background-color: #fff;
+        color: #404040;
+    }
+
+    ul li.active a {
+        background-color: #fff;
+        color: #404040;
+    }
+
+    .logo img {
+        position: absolute;
+        width: auto;
+        height: 55px;
+        left: 520px;
+        top: 21px;
+        background-color: transparent;
+    }
+
+    /* End Navbar */
+
+
+    /* Aplikasi Videoder */
+    .backgroundlvideoder {
+        display: none;
+    }
+
+    .videoder ul {
+        position: absolute;
+        width: 588px;
+        height: 2120px;
+        left: 83px;
+        top: 90px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px
+    }
+
+    .videoder h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 15px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .videoder p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 90;
+        font-size: 11px;
+        line-height: 19px;
+        margin: 30px;
+        margin-top: 100px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .videoder p span {
+        font-style: normal;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .videoder h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 30px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .logovideoder img {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 340px;
+        top: 155px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Tampilan Videoder */
+    .videoder1 img {
+        position: absolute;
+        width: auto;
+        height: 215px;
+        left: 320px;
+        top: 390px;
+        background-color: transparent;
+    }
+
+    .videoder2 img {
+        position: absolute;
+        width: auto;
+        height: 300px;
+        left: 210px;
+        top: 620px;
+        background-color: transparent;
+    }
+
+    .videoder3 img {
+        position: absolute;
+        width: auto;
+        height: 300px;
+        left: 210px;
+        top: 945px;
+    }
+
+    .videoder4 img {
+        position: absolute;
+        width: auto;
+        height: 300px;
+        left: 210px;
+        top: 1270px;
+    }
+
+    .videoder5 img {
+        position: absolute;
+        width: auto;
+        height: 300px;
+        left: 210px;
+        top: 1600px;
+    }
+
+    /* End Tampilan Videoder */
+    /* Link Videoder */
+    .videotutor ul {
+        position: absolute;
+        width: 400px;
+        height: 15px;
+        left: 180px;
+        top: 1920px;
+        background-color: transparent;
+    }
+
+    .videotutor a {
+        font-size: 14px;
+        background-color: transparent;
+        color: #22A2FF;
+    }
+
+    .videotutor h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        background-color: transparent;
+        margin-bottom: 5px;
+
+        color: #FFFFFF;
+    }
+
+    .videotutor h2 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 0px;
+    }
+
+    .videotutor h3 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .videotutor h4 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .videotutor p {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        background-color: transparent;
+        margin-top: 10px;
+
+        color: #FFFFFF;
+    }
+
+    .thumbnailvid img {
+        position: absolute;
+        width: auto;
+        height: 75px;
+        left: 140px;
+        top: 2090px;
+    }
+
+    .videoder a h3 p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        margin: 50px;
+        margin-left: 215px;
+        margin-top: 1765px;
+
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    /* End Link Videoder */
+    /* End Aplikasi Videoder */
+}
+
+@media (max-width: 689px) {
     * {
         background-color: #252734;
     }
@@ -848,6 +1127,285 @@ ul li.active a {
         margin: 20px;
         margin-left: 170px;
         margin-top: 1765px;
+
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    /* End Link Videoder */
+    /* End Aplikasi Videoder */
+}
+
+@media (max-width: 530px) {
+    * {
+        background-color: #252734;
+    }
+
+
+    /* Navbar */
+    .navbar ul {
+        position: absolute;
+        width: 350px;
+        height: 56px;
+        left: 20px;
+        top: 15px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        background-color: transparent;
+        margin-top: 20px;
+        margin-left: 4px;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 3px 12px;
+        border: 1px solid #707070;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 13px;
+        transition: 0.6s;
+        margin: 2px;
+        font-size: 9px;
+        background-color: #252734;
+    }
+
+    .navbar ul li a:hover {
+        background-color: #fff;
+        color: #404040;
+    }
+
+    ul li.active a {
+        background-color: #fff;
+        color: #404040;
+    }
+
+    .logo img {
+        position: absolute;
+        width: auto;
+        height: 40px;
+        left: 287px;
+        top: 23px;
+        background-color: transparent;
+    }
+
+    /* End Navbar */
+
+
+    /* Aplikasi Videoder */
+    .backgroundlvideoder {
+        display: none;
+    }
+
+    .videoder ul {
+        position: absolute;
+        width: 350px;
+        height: 1950px;
+        left: 20px;
+        top: 90px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px
+    }
+
+    .videoder h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 15px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .videoder p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 90;
+        font-size: 10px;
+        line-height: 19px;
+        margin: 15px;
+        margin-top: 90px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .videoder p span {
+        font-style: normal;
+        background-color: transparent;
+    }
+
+    .videoder h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .logovideoder img {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 170px;
+        top: 155px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Tampilan Videoder */
+    .videoder1 img {
+        position: absolute;
+        width: auto;
+        height: 215px;
+        left: 140px;
+        top: 375px;
+        background-color: transparent;
+    }
+
+    .videoder2 img {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 55px;
+        top: 620px;
+        background-color: transparent;
+    }
+
+    .videoder3 img {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 55px;
+        top: 900px;
+    }
+
+    .videoder4 img {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 55px;
+        top: 1180px;
+    }
+
+    .videoder5 img {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 55px;
+        top: 1460px;
+    }
+
+    /* End Tampilan Videoder */
+    /* Link Videoder */
+    .videotutor ul {
+        position: absolute;
+        width: 385px;
+        height: 15px;
+        left: 0px;
+        top: 1750px;
+        background-color: transparent;
+    }
+
+    .videotutor a {
+        font-size: 13px;
+        background-color: transparent;
+        color: #22A2FF;
+    }
+
+    .videotutor h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        background-color: transparent;
+        margin-bottom: 5px;
+
+        color: #FFFFFF;
+    }
+
+    .videotutor h2 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 0px;
+    }
+
+    .videotutor h3 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .videotutor h4 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        text-align: center;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .videotutor p {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 12px;
+        background-color: transparent;
+        margin-top: 10px;
+
+        color: #FFFFFF;
+    }
+
+    .thumbnailvid img {
+        position: absolute;
+        width: auto;
+        height: 75px;
+        left: 40px;
+        top: 1910px;
+    }
+
+    .videoder a h3 p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 170px;
+        margin-top: 1580px;
 
         background-color: transparent;
         color: #FFFFFF;
