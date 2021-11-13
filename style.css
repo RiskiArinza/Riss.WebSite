@@ -206,7 +206,6 @@ ul li.active a {
 
 /* EndHomeVideoder */
 /* End Aplikasi */
-
 /* Gambar */
 .gambar ul {
     position: absolute;
@@ -262,10 +261,10 @@ ul li.active a {
 
 
 /* Halaman Aplikasi */
-.halvideoderapp ul {
+.backgroundslide {
     position: absolute;
     width: 588px;
-    height: 838px;
+    height: 148px;
     left: 426px;
     top: 113px;
 
@@ -276,23 +275,35 @@ ul li.active a {
 
 .sliderapp img {
     position: absolute;
-    width: 516px;
-    height: 108px;
-    left: 457px;
-    top: 132px;
+    width: 558px;
+    height: auto;
+    left: 442px;
+    top: 127px;
     background-color: transparent;
 
     border-radius: 5px;
 }
 
 /* Aplikasi Videoder */
-.halvideoderapp h2 {
+.halvideoderapp ul {
+    position: absolute;
+    width: 588px;
+    height: 100px;
+    left: 426px;
+    top: 280px;
+
+    background: #252734;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.halvideoderapp h1 {
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: 15px;
     margin: 20px;
-    margin-top: 190px;
+    margin-top: 11px;
     margin-left: 85px;
     margin-bottom: 5px;
 
@@ -300,30 +311,30 @@ ul li.active a {
     background-color: transparent;
 }
 
-.halvideoderapp h3 {
+.halvideoderapp h2 {
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-size: 12px;
     margin: 20px;
     margin-left: 85px;
-    margin-top: 5px;
+    margin-top: 0px;
     font-weight: 100;
 
     color: #FFFFFF;
     background-color: transparent;
 }
 
-.halvideoderapp h4 {
+.halvideoderapp h3 {
     display: none;
 }
 
 .halappvideoder img {
     position: absolute;
     width: auto;
-    height: 45px;
-    left: 450px;
-    top: 320px;
+    height: 55px;
+    left: 440px;
+    top: 305px;
     background-color: transparent;
 }
 
@@ -580,7 +591,7 @@ ul li.active a {
 /* End Aplikasi Videoder */
 
 /* Web Responsive */
-@media (max-width: 1080px) and (min-width: 690px) {
+@media (max-width: 1080px) {
     * {
         background-color: #252734;
     }
@@ -833,12 +844,13 @@ ul li.active a {
         display: none;
     }
 
-    .halvideoderapp ul {
+
+    .backgroundslide {
         position: absolute;
         width: 588px;
-        height: 838px;
+        height: 148px;
         left: 83px;
-        top: 100px;
+        top: 104px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -847,9 +859,9 @@ ul li.active a {
 
     .sliderapp img {
         position: absolute;
-        width: 516px;
-        height: 108px;
-        left: 120px;
+        width: 558px;
+        height: auto;
+        left: 98px;
         top: 120px;
         background-color: transparent;
 
@@ -857,13 +869,25 @@ ul li.active a {
     }
 
     /* Aplikasi Videoder */
-    .halvideoderapp h2 {
+    .halvideoderapp ul {
+        position: absolute;
+        width: 588px;
+        height: 100px;
+        left: 83px;
+        top: 275px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .halvideoderapp h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 15px;
         margin: 20px;
-        margin-top: 190px;
+        margin-top: 11px;
         margin-left: 85px;
         margin-bottom: 5px;
 
@@ -871,30 +895,30 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h3 {
+    .halvideoderapp h2 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 12px;
         margin: 20px;
         margin-left: 85px;
-        margin-top: 5px;
+        margin-top: 0px;
         font-weight: 100;
 
         color: #FFFFFF;
         background-color: transparent;
     }
 
-    .halvideoderapp h4 {
+    .halvideoderapp h3 {
         display: none;
     }
 
     .halappvideoder img {
         position: absolute;
         width: auto;
-        height: 45px;
-        left: 110px;
-        top: 305px;
+        height: 55px;
+        left: 100px;
+        top: 300px;
         background-color: transparent;
     }
 
@@ -1148,7 +1172,7 @@ ul li.active a {
     /* End Aplikasi Videoder */
 }
 
-@media (max-width: 689px) {
+@media (max-width: 700px) {
     * {
         background-color: #252734;
     }
@@ -1402,12 +1426,13 @@ ul li.active a {
         display: none;
     }
 
-    .halvideoderapp ul {
+
+    .backgroundslide {
         position: absolute;
         width: 450px;
-        height: 838px;
+        height: 120px;
         left: 20px;
-        top: 90px;
+        top: 95px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -1416,9 +1441,9 @@ ul li.active a {
 
     .sliderapp img {
         position: absolute;
-        width: 378px;
+        width: 420px;
         height: auto;
-        left: 55px;
+        left: 35px;
         top: 110px;
         background-color: transparent;
 
@@ -1426,13 +1451,25 @@ ul li.active a {
     }
 
     /* Aplikasi Videoder */
-    .halvideoderapp h2 {
+    .halvideoderapp ul {
+        position: absolute;
+        width: 450px;
+        height: 95px;
+        left: 20px;
+        top: 237px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .halvideoderapp h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
-        font-size: 12px;
+        font-size: 14px;
         margin: 20px;
-        margin-top: 155px;
+        margin-top: 13px;
         margin-left: 85px;
         margin-bottom: 5px;
 
@@ -1440,30 +1477,30 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h3 {
+    .halvideoderapp h2 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 10px;
         margin: 20px;
         margin-left: 85px;
-        margin-top: 5px;
+        margin-top: 0px;
         font-weight: 100;
 
         color: #FFFFFF;
         background-color: transparent;
     }
 
-    .halvideoderapp h4 {
+    .halvideoderapp h3 {
         display: none;
     }
 
     .halappvideoder img {
         position: absolute;
         width: auto;
-        height: 45px;
-        left: 45px;
-        top: 255px;
+        height: 55px;
+        left: 37px;
+        top: 258px;
         background-color: transparent;
     }
 
@@ -1717,7 +1754,7 @@ ul li.active a {
     /* End Aplikasi Videoder */
 }
 
-@media (max-width: 530px) and (min-width: 390px) {
+@media (max-width: 510px) {
     * {
         background-color: #252734;
     }
@@ -1972,12 +2009,13 @@ ul li.active a {
         display: none;
     }
 
-    .halvideoderapp ul {
+
+    .backgroundslide {
         position: absolute;
         width: 350px;
-        height: 838px;
+        height: 95px;
         left: 20px;
-        top: 95px;
+        top: 90px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -1986,23 +2024,35 @@ ul li.active a {
 
     .sliderapp img {
         position: absolute;
-        width: 278px;
+        width: 320px;
         height: auto;
-        left: 55px;
-        top: 115px;
+        left: 35px;
+        top: 102px;
         background-color: transparent;
 
         border-radius: 5px;
     }
 
     /* Aplikasi Videoder */
-    .halvideoderapp h2 {
+    .halvideoderapp ul {
+        position: absolute;
+        width: 350px;
+        height: 76px;
+        left: 20px;
+        top: 200px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .halvideoderapp h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 12px;
         margin: 20px;
-        margin-top: 110px;
+        margin-top: 12px;
         margin-left: 85px;
         margin-bottom: 5px;
 
@@ -2010,22 +2060,22 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h3 {
+    .halvideoderapp h2 {
         display: none;
     }
 
-    .halvideoderapp h4 {
+    .halvideoderapp h3 {
         display: flex;
     }
 
-    .halvideoderapp h4 {
+    .halvideoderapp h3 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 10px;
         margin: 20px;
         margin-left: 85px;
-        margin-top: 5px;
+        margin-top: 0px;
         font-weight: 100;
 
         color: #FFFFFF;
@@ -2035,9 +2085,9 @@ ul li.active a {
     .halappvideoder img {
         position: absolute;
         width: auto;
-        height: 40px;
-        left: 55px;
-        top: 211px;
+        height: 45px;
+        left: 42px;
+        top: 216px;
         background-color: transparent;
     }
 
@@ -2290,7 +2340,7 @@ ul li.active a {
     /* End Aplikasi Videoder */
 }
 
-@media (max-width: 389px) {
+@media (max-width: 400px) {
     * {
         background-color: #252734;
     }
@@ -2545,12 +2595,12 @@ ul li.active a {
         display: none;
     }
 
-    .halvideoderapp ul {
+    .backgroundslide {
         position: absolute;
         width: 335px;
-        height: 838px;
+        height: 85px;
         left: 6px;
-        top: 95px;
+        top: 90px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -2559,23 +2609,35 @@ ul li.active a {
 
     .sliderapp img {
         position: absolute;
-        width: 278px;
+        width: 305px;
         height: auto;
-        left: 35px;
-        top: 105px;
+        left: 21px;
+        top: 100px;
         background-color: transparent;
 
         border-radius: 5px;
     }
 
     /* Aplikasi Videoder */
-    .halvideoderapp h2 {
+    .halvideoderapp ul {
+        position: absolute;
+        width: 335px;
+        height: 77px;
+        left: 6px;
+        top: 192px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .halvideoderapp h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 12px;
         margin: 20px;
-        margin-top: 110px;
+        margin-top: 11px;
         margin-left: 80px;
         margin-bottom: 5px;
 
@@ -2583,22 +2645,22 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h3 {
+    .halvideoderapp h2 {
         display: none;
     }
 
-    .halvideoderapp h4 {
+    .halvideoderapp h3 {
         display: flex;
     }
 
-    .halvideoderapp h4 {
+    .halvideoderapp h3 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 10px;
         margin: 20px;
         margin-left: 80px;
-        margin-top: 5px;
+        margin-top: 0px;
         font-weight: 100;
 
         color: #FFFFFF;
@@ -2608,9 +2670,9 @@ ul li.active a {
     .halappvideoder img {
         position: absolute;
         width: auto;
-        height: 40px;
-        left: 35px;
-        top: 211px;
+        height: 45px;
+        left: 24px;
+        top: 209px;
         background-color: transparent;
     }
 
