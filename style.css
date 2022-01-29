@@ -51,7 +51,7 @@
 .backgroundhome ul {
     position: absolute;
     width: 636px;
-    height: 800px;
+    height: 760px;
     left: 402px;
     top: 0px;
 
@@ -111,6 +111,19 @@ ul li.active a {
 
 /* End Navbar */
 
+/* Banner Channel */
+.bannerchannel img {
+    position: absolute;
+    width: 580px;
+    height: auto;
+    left: 430px;
+    top: 105px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+    border-radius: 5px;
+}
+
+/* End Banner Channel */
 
 /* Tombol Subscribe */
 .buttom {
@@ -119,6 +132,15 @@ ul li.active a {
     height: 33.21px;
     left: 892px;
     top: 150px;
+    background-color: transparent;
+}
+
+.buttomsubs {
+    position: absolute;
+    width: 107px;
+    height: 33.21px;
+    left: 670px;
+    top: 290px;
     background-color: transparent;
 }
 
@@ -140,6 +162,95 @@ ul li.active a {
 
 /* End Tombol Subscribe */
 
+/* About */
+.backgroundabout ul {
+    position: absolute;
+    width: 636px;
+    height: 700px;
+    left: 402px;
+    top: 0px;
+
+    background: #252734;
+}
+
+.about ul {
+    position: absolute;
+    width: 588px;
+    height: 235px;
+    left: 426px;
+    top: 110px;
+
+    background-color: #252734;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.about h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 12px;
+    line-height: 34px;
+    text-align: center;
+    margin: 30px;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.saranrequest ul {
+    position: absolute;
+    width: 588px;
+    height: 140px;
+    left: 426px;
+    top: 360px;
+
+    background-color: #252734;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.saranrequest h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 12px;
+    line-height: 34px;
+    text-align: center;
+    margin: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.copyright ul {
+    position: absolute;
+    width: 588px;
+    height: 35px;
+    left: 426px;
+    top: 515px;
+
+    background-color: #252734;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.copyright p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 12px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+/* End About */
 
 /* Index atau Home */
 /* Aplikasi */
@@ -205,14 +316,40 @@ ul li.active a {
 }
 
 /* EndHomeVideoder */
+/* HomeSaveFrom */
+.aplikasi h3 {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    margin: -23px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.appsavefrom img {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    left: 582px;
+    top: 305px;
+    background-color: transparent;
+
+    border-radius: 5px;
+}
+
+/* EndHomeSaveFrom */
 /* End Aplikasi */
-/* Gambar */
+/* PC */
 .gambar ul {
     position: absolute;
     width: 588px;
     height: 250px;
     left: 426px;
-    top: 500px;
+    top: 485px;
 
     background: #252734;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -232,17 +369,6 @@ ul li.active a {
     background-color: transparent;
 }
 
-.gambar h2 {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 33px;
-
-    color: #FFFFFF;
-    background-color: transparent;
-}
-
 .gambar p {
     font-family: sans-serif;
     font-style: normal;
@@ -250,17 +376,47 @@ ul li.active a {
     font-size: 10px;
     line-height: 34px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 40px;
 
     color: #FFFFFF;
     background-color: transparent;
 }
 
-/* End Gambar */
+/* Homeiobitrecorder */
+.gambar h2 {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    margin: 100px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.gambar h3 {
+    display: none;
+}
+
+.iobitrcexe img {
+    position: absolute;
+    width: auto;
+    height: 55px;
+    left: 476px;
+    top: 563px;
+    background-color: transparent;
+
+    border-radius: 5px;
+}
+
+/* EndHomeiobitrecorder */
+/* End PC */
 /* End Index atau Home */
 
 
-/* Halaman Aplikasi */
+/* Halaman Mobile */
 .backgroundslide {
     position: absolute;
     width: 588px;
@@ -284,8 +440,8 @@ ul li.active a {
     border-radius: 5px;
 }
 
-/* Aplikasi Videoder */
-.halvideoderapp ul {
+/* Aplikasi SaveFrom */
+.halsavefromapp ul {
     position: absolute;
     width: 588px;
     height: 100px;
@@ -297,7 +453,7 @@ ul li.active a {
     border-radius: 10px;
 }
 
-.halvideoderapp h1 {
+.halsavefromapp h1 {
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -311,7 +467,7 @@ ul li.active a {
     background-color: transparent;
 }
 
-.halvideoderapp h2 {
+.halsavefromapp h2 {
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -325,27 +481,25 @@ ul li.active a {
     background-color: transparent;
 }
 
-.halvideoderapp h3 {
-    display: none;
-}
-
-.halappvideoder img {
+.halappsavefrom img {
     position: absolute;
     width: auto;
     height: 55px;
     left: 440px;
-    top: 305px;
+    top: 300px;
     background-color: transparent;
+
+    border-radius: 5px;
 }
 
-/* End Aplikasi Videoder */
-/* End Halaman Aplikasi */
+/* End Aplikasi SaveFrom */
+/* End Halaman Mobile */
 
-/* Halaman Gambar */
-.halgambar ul {
+/* Halaman PC */
+.halslidepc ul {
     position: absolute;
     width: 588px;
-    height: 838px;
+    height: 148px;
     left: 426px;
     top: 113px;
 
@@ -356,32 +510,87 @@ ul li.active a {
 
 .sliderpicture img {
     position: absolute;
-    width: 516px;
-    height: 108px;
-    left: 457px;
-    top: 132px;
+    width: 558px;
+    height: auto;
+    left: 442px;
+    top: 127px;
     background-color: transparent;
 
     border-radius: 5px;
 }
 
-/* End Halaman Gambar */
+/* Iobit Screen Recorder exe */
+.haliobitrecpc ul {
+    position: absolute;
+    width: 588px;
+    height: 100px;
+    left: 426px;
+    top: 280px;
 
-/* Aplikasi Videoder */
-.backgroundlvideoder ul {
+    background: #252734;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.haliobitrecpc h1 {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 85px;
+    margin-bottom: 5px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.haliobitrecpc h2 {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    margin: 20px;
+    margin-left: 85px;
+    margin-top: 0px;
+    font-weight: 100;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.haliobitrecpc h3 {
+    display: none;
+}
+
+.halpciobitscreen img {
+    position: absolute;
+    width: auto;
+    height: 60px;
+    left: 440px;
+    top: 300px;
+    background-color: transparent;
+}
+
+/* End Iobit Screen Recorder exe */
+/* End Halaman PC */
+
+/* Aplikasi Iobit Recorder */
+.backgroundliobitrecord ul {
     position: absolute;
     width: 636px;
-    height: 2285px;
+    height: 1440px;
     left: 402px;
     top: 0px;
 
     background: #252734;
 }
 
-.videoder ul {
+.iobitrecord ul {
     position: absolute;
     width: 588px;
-    height: 2150px;
+    height: 1300px;
     left: 426px;
     top: 113px;
 
@@ -390,7 +599,7 @@ ul li.active a {
     border-radius: 10px;
 }
 
-.videoder h1 {
+.iobitrecord h1 {
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -403,7 +612,7 @@ ul li.active a {
     background-color: transparent;
 }
 
-.videoder p {
+.iobitrecord p {
     font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -416,26 +625,26 @@ ul li.active a {
     background-color: transparent;
 }
 
-.videoder p span {
+.iobitrecord p span {
     font-style: normal;
     font-weight: bold;
     background-color: transparent;
 }
 
-.videoder h2 {
+.iobitrecord h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    margin-left: 210px;
+    margin-left: 200px;
     margin-top: 40px;
 
     color: #FFFFFF;
     background-color: transparent;
 }
 
-.logovideoder img {
+.logoiobitrecord img {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -446,67 +655,43 @@ ul li.active a {
     border-radius: 5px;
 }
 
-/* Tampilan Videoder */
-.videoder1 img {
+/* Tampilan Iobit Recorder */
+.iobitrecord1 img {
     position: absolute;
     width: auto;
-    height: 216px;
-    left: 665px;
-    top: 420px;
+    height: 180px;
+    left: 460px;
+    top: 450px;
     background-color: transparent;
 }
 
-.videoder2 img {
+.iobitrecord2 img {
     position: absolute;
     width: auto;
-    height: 300px;
-    left: 555px;
-    top: 660px;
+    height: 400px;
+    left: 505px;
+    top: 650px;
     background-color: transparent;
 }
 
-.videoder3 img {
-    position: absolute;
-    width: auto;
-    height: 300px;
-    left: 555px;
-    top: 985px;
-}
-
-.videoder4 img {
-    position: absolute;
-    width: auto;
-    height: 300px;
-    left: 555px;
-    top: 1310px;
-}
-
-.videoder5 img {
-    position: absolute;
-    width: auto;
-    height: 300px;
-    left: 555px;
-    top: 1640px;
-}
-
-/* End Tampilan Videoder */
-/* Link Videoder */
-.videotutor ul {
+/* End Tampilan Iobit Recorder */
+/* Link Iobit Recorder */
+.iobitrecordL ul {
     position: absolute;
     width: 540px;
     height: 16px;
     left: 457px;
-    top: 1960px;
+    top: 1080px;
     background-color: transparent;
 }
 
-.videotutor a {
+.iobitrecordL a {
     font-size: 14px;
     background-color: transparent;
     color: #22A2FF;
 }
 
-.videotutor h1 {
+.iobitrecordL h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -518,7 +703,7 @@ ul li.active a {
     color: #FFFFFF;
 }
 
-.videotutor h2 {
+.iobitrecordL h2 {
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -528,7 +713,7 @@ ul li.active a {
     margin-top: 0px;
 }
 
-.videotutor h3 {
+.iobitrecordL h3 {
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -539,7 +724,7 @@ ul li.active a {
     margin-bottom: 5px;
 }
 
-.videotutor h4 {
+.iobitrecordL h4 {
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -550,7 +735,7 @@ ul li.active a {
     margin-bottom: 0px;
 }
 
-.videotutor p {
+.iobitrecordL p {
     text-align: center;
     font-family: sans-serif;
     font-style: normal;
@@ -567,28 +752,235 @@ ul li.active a {
     width: auto;
     height: 80px;
     left: 465px;
-    top: 2120px;
+    top: 1250px;
 }
 
-.videoder a h3 {
+.iobitrecord a h3 {
     background-color: transparent;
 }
 
-.videoder a h3 p {
+.iobitrecord a h3 p {
     font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     margin: 35px;
     margin-left: 210px;
-    margin-top: 1730px;
+    margin-top: 840px;
 
     background-color: transparent;
     color: #FFFFFF;
 }
 
-/* End Link Videoder */
-/* End Aplikasi Videoder */
+/* End Link Iobit Recorder */
+/* End Aplikasi Iobit Recorder */
+
+/* Aplikasi SaveFrom */
+.backgroundlsavefrom ul {
+    position: absolute;
+    width: 636px;
+    height: 1685px;
+    left: 402px;
+    top: 0px;
+
+    background: #252734;
+}
+
+.savefrom ul {
+    position: absolute;
+    width: 588px;
+    height: 1550px;
+    left: 426px;
+    top: 113px;
+
+    background-color: #252734;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.savefrom h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.savefrom p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 19px;
+    margin: 50px;
+    margin-top: 120px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.savefrom p span {
+    font-style: normal;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.savefrom h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 210px;
+    margin-top: 40px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.logosavefrom img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 670px;
+    top: 176px;
+    background-color: transparent;
+
+    border-radius: 5px;
+}
+
+/* Tampilan SaveFrom */
+.savefrom1 img {
+    position: absolute;
+    width: auto;
+    height: 216px;
+    left: 665px;
+    top: 420px;
+    background-color: transparent;
+}
+
+.savefrom2 img {
+    position: absolute;
+    width: auto;
+    height: 219px;
+    left: 664px;
+    top: 660px;
+    background-color: transparent;
+}
+
+.savefrom3 img {
+    position: absolute;
+    width: auto;
+    height: 300px;
+    left: 555px;
+    top: 903px;
+}
+
+/* End Tampilan SaveFrom */
+/* Link SaveFrom */
+.savefromtutor ul {
+    position: absolute;
+    width: 540px;
+    height: 16px;
+    left: 457px;
+    top: 1250px;
+    background-color: transparent;
+}
+
+.savefromtutor a {
+    font-size: 14px;
+    background-color: transparent;
+    color: #22A2FF;
+}
+
+.savefromtutor h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: transparent;
+    margin-bottom: 10px;
+
+    color: #FFFFFF;
+}
+
+.savefromtutor h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: transparent;
+    margin-top: 0px;
+}
+
+.savefromtutor h3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.savefromtutor h4 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.savefromtutor p {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: transparent;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+}
+
+.thumbnailsave img {
+    position: absolute;
+    width: auto;
+    height: 80px;
+    left: 465px;
+    top: 1430px;
+}
+
+.savefrom a h3 {
+    background-color: transparent;
+}
+
+.savefrom a h3 p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 35px;
+    margin-left: 210px;
+    margin-top: 1040px;
+
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+/* End Link SaveFrom */
+/* End Aplikasi SaveFrom */
 
 /* Web Responsive */
 @media (max-width: 1080px) {
@@ -685,6 +1077,19 @@ ul li.active a {
 
     /* End Navbar */
 
+    /* Banner Channel */
+    .bannerchannel img {
+        position: absolute;
+        width: 580px;
+        height: auto;
+        left: 86px;
+        top: 99px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+        border-radius: 5px;
+    }
+
+    /* End Banner Channel */
 
     /* Tombol Subscribe */
     .buttom {
@@ -695,6 +1100,16 @@ ul li.active a {
         top: 145px;
         background-color: transparent;
     }
+
+    .buttomsubs {
+        position: absolute;
+        width: 107px;
+        height: 33.21px;
+        left: 325px;
+        top: 288px;
+        background-color: transparent;
+    }
+
 
     .btn {
         color: #fff;
@@ -713,6 +1128,91 @@ ul li.active a {
     }
 
     /* End Tombol Subscribe */
+
+
+    /* About */
+    .backgroundabout ul {
+        display: none;
+    }
+
+    .about ul {
+        position: absolute;
+        width: 588px;
+        height: 230px;
+        left: 83px;
+        top: 105px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .about h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 12px;
+        line-height: 34px;
+        text-align: center;
+        margin: 30px;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .saranrequest ul {
+        position: absolute;
+        width: 588px;
+        height: 140px;
+        left: 83px;
+        top: 355px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .saranrequest h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 12px;
+        line-height: 34px;
+        text-align: center;
+        margin: 60px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .copyright ul {
+        position: absolute;
+        width: 588px;
+        height: 35px;
+        left: 83px;
+        top: 513px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .copyright p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 12px;
+        line-height: 34px;
+        text-align: center;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    /* End About */
 
 
     .backgroundhome {
@@ -784,6 +1284,32 @@ ul li.active a {
     }
 
     /* EndHomeVideoder */
+    /* Aplikasi SaveFrom */
+    .aplikasi h3 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 150px;
+        margin-top: -20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .appsavefrom img {
+        position: absolute;
+        width: auto;
+        height: 45px;
+        left: 238px;
+        top: 308px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* End Aplikasi SaveFrom */
     /* End Aplikasi */
     /* Gambar */
     .gambar ul {
@@ -829,12 +1355,42 @@ ul li.active a {
         font-size: 10px;
         line-height: 34px;
         text-align: center;
-        margin-top: 160px;
+        margin-top: 25px;
 
         color: #FFFFFF;
         background-color: transparent;
     }
 
+    /* Homeiobitrecorder */
+    .gambar h2 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        margin: 100px;
+        margin-left: 45px;
+        margin-bottom: 5px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .gambar h3 {
+        display: none;
+    }
+
+    .iobitrcexe img {
+        position: absolute;
+        width: auto;
+        height: 50px;
+        left: 143px;
+        top: 592px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* EndHomeiobitrecorder */
     /* End Gambar */
     /* End Index atau Home */
 
@@ -868,8 +1424,8 @@ ul li.active a {
         border-radius: 5px;
     }
 
-    /* Aplikasi Videoder */
-    .halvideoderapp ul {
+    /* Aplikasi SaveFrom */
+    .halsavefromapp ul {
         position: absolute;
         width: 588px;
         height: 100px;
@@ -881,7 +1437,7 @@ ul li.active a {
         border-radius: 10px;
     }
 
-    .halvideoderapp h1 {
+    .halsavefromapp h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
@@ -895,7 +1451,7 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h2 {
+    .halsavefromapp h2 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
@@ -909,28 +1465,26 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h3 {
-        display: none;
-    }
-
-    .halappvideoder img {
+    .halappsavefrom img {
         position: absolute;
         width: auto;
         height: 55px;
         left: 100px;
         top: 300px;
         background-color: transparent;
+
+        border-radius: 5px;
     }
 
-    /* End Aplikasi Videoder */
+    /* End Aplikasi SaveFrom */
     /* End Halaman Aplikasi */
 
 
-    /* Halaman Gambar */
-    .halgambar ul {
+    /* Halaman PC */
+    .halslidepc ul {
         position: absolute;
         width: 588px;
-        height: 838px;
+        height: 148px;
         left: 83px;
         top: 100px;
 
@@ -941,16 +1495,71 @@ ul li.active a {
 
     .sliderpicture img {
         position: absolute;
-        width: 516px;
-        height: 108px;
-        left: 120px;
-        top: 120px;
+        width: 558px;
+        height: auto;
+        left: 98px;
+        top: 115px;
         background-color: transparent;
 
         border-radius: 5px;
     }
 
-    /* End Halaman Gambar */
+    /* Iobit Screen Recorder exe */
+    .haliobitrecpc ul {
+        position: absolute;
+        width: 588px;
+        height: 100px;
+        left: 83px;
+        top: 275px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .haliobitrecpc h1 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        margin: 20px;
+        margin-top: 20px;
+        margin-left: 90px;
+        margin-bottom: 5px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .haliobitrecpc h2 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 90px;
+        margin-top: 0px;
+        font-weight: 100;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .haliobitrecpc h3 {
+        display: none;
+    }
+
+    .halpciobitscreen img {
+        position: absolute;
+        width: auto;
+        height: 60px;
+        left: 100px;
+        top: 295px;
+        background-color: transparent;
+    }
+
+    /* End Iobit Screen Recorder exe */
+    /* End Halaman PC */
 
 
     /* Aplikasi Videoder */
@@ -1170,6 +1779,210 @@ ul li.active a {
 
     /* End Link Videoder */
     /* End Aplikasi Videoder */
+    /* Aplikasi SaveFrom */
+    .backgroundlsavefrom ul {
+        display: none;
+    }
+
+    .savefrom ul {
+        position: absolute;
+        width: 588px;
+        height: 1450px;
+        left: 83px;
+        top: 113px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .savefrom h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 90;
+        font-size: 11px;
+        line-height: 19px;
+        margin: 50px;
+        margin-top: 120px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p span {
+        font-style: normal;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .savefrom h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        margin-left: 210px;
+        margin-top: 40px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .logosavefrom img {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 340px;
+        top: 176px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Tampilan SaveFrom */
+    .savefrom1 img {
+        position: absolute;
+        width: auto;
+        height: 216px;
+        left: 320px;
+        top: 430px;
+        background-color: transparent;
+    }
+
+    .savefrom2 img {
+        position: absolute;
+        width: auto;
+        height: 219px;
+        left: 320px;
+        top: 660px;
+        background-color: transparent;
+    }
+
+    .savefrom3 img {
+        position: absolute;
+        width: auto;
+        height: 300px;
+        left: 210px;
+        top: 893px;
+    }
+
+    /* End Tampilan SaveFrom */
+    /* Link SaveFrom */
+    .savefromtutor ul {
+        position: absolute;
+        width: 400px;
+        height: 15px;
+        left: 180px;
+        top: 1240px;
+        background-color: transparent;
+    }
+
+    .savefromtutor a {
+        font-size: 14px;
+        background-color: transparent;
+        color: #22A2FF;
+    }
+
+    .savefromtutor h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        background-color: transparent;
+        margin-bottom: 10px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .savefromtutor h2 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor h3 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .savefromtutor h4 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor p {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        background-color: transparent;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+    }
+
+    .thumbnailsave img {
+        position: absolute;
+        width: auto;
+        height: 75px;
+        left: 140px;
+        top: 1420px;
+    }
+
+    .savefrom a h3 {
+        background-color: transparent;
+    }
+
+    .savefrom a h3 p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 35px;
+        margin-left: 210px;
+        margin-top: 1030px;
+
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    /* End Link SaveFrom */
+    /* End Aplikasi SaveFrom */
 }
 
 @media (max-width: 700px) {
@@ -1266,14 +2079,27 @@ ul li.active a {
 
     /* End Navbar */
 
+    /* Banner Channel */
+    .bannerchannel img {
+        position: absolute;
+        width: 442px;
+        height: auto;
+        left: 23px;
+        top: 80px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+        border-radius: 5px;
+    }
+
+    /* End Banner Channel */
 
     /* Tombol Subscribe */
     .buttom {
         position: absolute;
         width: 107px;
         height: 33.21px;
-        left: 350px;
-        top: 130px;
+        left: 353px;
+        top: 113px;
         background-color: transparent;
     }
 
@@ -1281,12 +2107,22 @@ ul li.active a {
         color: #fff;
         font-weight: 500;
         text-decoration: none;
-        padding: 8px 17px;
+        padding: 7px 16px;
         border: 1px solid #FFFFFF;
         border-radius: 15px;
         background-color: red;
         transition: 0.6s ease;
     }
+
+    .buttomsubs {
+        position: absolute;
+        width: 107px;
+        height: 33.21px;
+        left: 190px;
+        top: 288px;
+        background-color: transparent;
+    }
+
 
     .btn:hover {
         color: white;
@@ -1294,6 +2130,91 @@ ul li.active a {
     }
 
     /* End Tombol Subscribe */
+
+
+    /* About */
+    .backgroundabout ul {
+        display: none;
+    }
+
+    .about ul {
+        position: absolute;
+        width: 450px;
+        height: 230px;
+        left: 20px;
+        top: 105px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .about h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 11px;
+        line-height: 34px;
+        text-align: center;
+        margin: 30px;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .saranrequest ul {
+        position: absolute;
+        width: 450px;
+        height: 125px;
+        left: 20px;
+        top: 355px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .saranrequest h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 11px;
+        line-height: 34px;
+        text-align: center;
+        margin: 60px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .copyright ul {
+        position: absolute;
+        width: 450px;
+        height: 35px;
+        left: 20px;
+        top: 498px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .copyright p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 11px;
+        line-height: 34px;
+        text-align: center;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    /* End About */
 
 
     .backgroundhome {
@@ -1308,7 +2229,7 @@ ul li.active a {
         width: 450px;
         height: 220px;
         left: 20px;
-        top: 208px;
+        top: 170px;
 
         background-color: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -1335,7 +2256,7 @@ ul li.active a {
         font-size: 10px;
         line-height: 34px;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 25px;
 
         color: #FFFFFF;
         background-color: transparent;
@@ -1361,11 +2282,37 @@ ul li.active a {
         width: auto;
         height: 40px;
         left: 60px;
-        top: 285px;
+        top: 247px;
         background-color: transparent;
     }
 
     /* EndHomeVideoder */
+    /* Aplikasi SaveFrom */
+    .aplikasi h3 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 107px;
+        margin-top: -45px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .appsavefrom img {
+        position: absolute;
+        width: auto;
+        height: 40px;
+        left: 135px;
+        top: 247px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* End Aplikasi SaveFrom */
     /* End Aplikasi */
     /* Gambar */
     .gambar ul {
@@ -1373,7 +2320,7 @@ ul li.active a {
         width: 450px;
         height: 220px;
         left: 20px;
-        top: 460px;
+        top: 410px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -1411,12 +2358,43 @@ ul li.active a {
         font-size: 10px;
         line-height: 34px;
         text-align: center;
-        margin-top: 120px;
+        margin-top: 15px;
 
         color: #FFFFFF;
         background-color: transparent;
     }
 
+    /* Homeiobitrecorder */
+    .gambar h2 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        margin: 100px;
+        margin-top: 70px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .gambar h3 {
+        display: none;
+    }
+
+    .iobitrcexe img {
+        position: absolute;
+        width: auto;
+        height: 45px;
+        left: 63px;
+        top: 480px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* EndHomeiobitrecorder */
     /* End Gambar */
     /* End Index atau Home */
 
@@ -1450,8 +2428,8 @@ ul li.active a {
         border-radius: 5px;
     }
 
-    /* Aplikasi Videoder */
-    .halvideoderapp ul {
+    /* Aplikasi SaveFrom */
+    .halsavefromapp ul {
         position: absolute;
         width: 450px;
         height: 95px;
@@ -1463,7 +2441,7 @@ ul li.active a {
         border-radius: 10px;
     }
 
-    .halvideoderapp h1 {
+    .halsavefromapp h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
@@ -1477,7 +2455,7 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h2 {
+    .halsavefromapp h2 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
@@ -1491,30 +2469,28 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h3 {
-        display: none;
-    }
-
-    .halappvideoder img {
+    .halappsavefrom img {
         position: absolute;
         width: auto;
         height: 55px;
         left: 37px;
         top: 258px;
         background-color: transparent;
+
+        border-radius: 5px;
     }
 
-    /* End Aplikasi Videoder */
+    /* End Aplikasi SaveFrom */
     /* End Halaman Aplikasi */
 
 
-    /* Halaman Gambar */
-    .halgambar ul {
+    /* Halaman PC */
+    .halslidepc ul {
         position: absolute;
         width: 450px;
-        height: 838px;
+        height: 120px;
         left: 20px;
-        top: 90px;
+        top: 95px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -1523,15 +2499,76 @@ ul li.active a {
 
     .sliderpicture img {
         position: absolute;
-        width: 378px;
+        width: 420px;
         height: auto;
-        left: 55px;
+        left: 35px;
         top: 110px;
         background-color: transparent;
 
         border-radius: 5px;
     }
 
+    /* Iobit Screen Recorder exe */
+    .haliobitrecpc ul {
+        position: absolute;
+        width: 450px;
+        height: 90px;
+        left: 20px;
+        top: 237px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .haliobitrecpc h1 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        margin: 20px;
+        margin-top: 13px;
+        margin-left: 85px;
+        margin-bottom: 5px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+
+    .haliobitrecpc h2 {
+        display: none;
+    }
+
+
+    .haliobitrecpc h3 {
+        display: flex;
+    }
+
+    .haliobitrecpc h3 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 85px;
+        margin-top: 0px;
+        font-weight: 100;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .halpciobitscreen img {
+        position: absolute;
+        width: auto;
+        height: 55px;
+        left: 37px;
+        top: 253px;
+        background-color: transparent;
+    }
+
+    /* End Iobit Screen Recorder exe */
     /* End Halaman Gambar */
 
 
@@ -1752,6 +2789,212 @@ ul li.active a {
 
     /* End Link Videoder */
     /* End Aplikasi Videoder */
+
+    /* Aplikasi SaveFrom */
+    .backgroundlsavefrom ul {
+        display: none;
+    }
+
+    .savefrom ul {
+        position: absolute;
+        width: 450px;
+        height: 1450px;
+        left: 20px;
+        top: 90px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .savefrom h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 15px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 90;
+        font-size: 11px;
+        line-height: 19px;
+        margin: 50px;
+        margin-top: 100px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p span {
+        font-style: normal;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .savefrom h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 30px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .logosavefrom img {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 210px;
+        top: 155px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Tampilan SaveFrom */
+    .savefrom1 img {
+        position: absolute;
+        width: auto;
+        height: 215px;
+        left: 185px;
+        top: 400px;
+        background-color: transparent;
+    }
+
+    .savefrom2 img {
+        position: absolute;
+        width: auto;
+        height: 215px;
+        left: 185px;
+        top: 630px;
+        background-color: transparent;
+    }
+
+    .savefrom3 img {
+        position: absolute;
+        width: auto;
+        height: 300px;
+        left: 75px;
+        top: 863px;
+    }
+
+    /* End Tampilan SaveFrom */
+    /* Link SaveFrom */
+    .savefromtutor ul {
+        position: absolute;
+        width: 400px;
+        height: 15px;
+        left: 40px;
+        top: 1220px;
+        background-color: transparent;
+    }
+
+    .savefromtutor a {
+        font-size: 14px;
+        background-color: transparent;
+        color: #22A2FF;
+    }
+
+    .savefromtutor h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        background-color: transparent;
+        margin-bottom: 5px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .savefromtutor h2 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor h3 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .savefromtutor h4 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor p {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        background-color: transparent;
+        margin-top: 10px;
+
+        color: #FFFFFF;
+    }
+
+    .thumbnailsave img {
+        position: absolute;
+        width: auto;
+        height: 75px;
+        left: 40px;
+        top: 1393px;
+    }
+
+    .savefrom a h3 {
+        background-color: transparent;
+    }
+
+    .savefrom a h3 p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 170px;
+        margin-top: 1030px;
+
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    /* End Link SaveFrom */
+    /* End Aplikasi SaveFrom */
 }
 
 @media (max-width: 510px) {
@@ -1848,6 +3091,12 @@ ul li.active a {
 
     /* End Navbar */
 
+    /* Banner Channel */
+    .bannerchannel img {
+        display: none;
+    }
+
+    /* End Banner Channel */
 
     /* Tombol Subscribe */
     .buttom {
@@ -1855,7 +3104,7 @@ ul li.active a {
         width: 107px;
         height: 33.21px;
         left: 150px;
-        top: 100px;
+        top: 90px;
         background-color: transparent;
     }
 
@@ -1871,12 +3120,106 @@ ul li.active a {
         transition: 0.6s ease;
     }
 
+    .buttomsubs {
+        position: absolute;
+        width: 105px;
+        height: 33.21px;
+        left: 150px;
+        top: 280px;
+        background-color: transparent;
+    }
+
     .btn:hover {
         color: white;
         background-color: gray;
     }
 
     /* End Tombol Subscribe */
+
+
+    /* About */
+    .backgroundabout ul {
+        display: none;
+    }
+
+    .about ul {
+        position: absolute;
+        width: 350px;
+        height: 227px;
+        left: 20px;
+        top: 105px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .about h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 10px;
+        line-height: 25px;
+        text-align: center;
+        margin: 30px;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .saranrequest ul {
+        position: absolute;
+        width: 350px;
+        height: 123px;
+        left: 20px;
+        top: 355px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .saranrequest h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 10px;
+        line-height: 25px;
+        text-align: center;
+        margin: 60px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .copyright ul {
+        position: absolute;
+        width: 350px;
+        height: 35px;
+        left: 20px;
+        top: 498px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .copyright p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 10px;
+        line-height: 34px;
+        text-align: center;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    /* End About */
 
 
     .backgroundhome {
@@ -1891,7 +3234,7 @@ ul li.active a {
         width: 350px;
         height: 200px;
         left: 20px;
-        top: 145px;
+        top: 125px;
 
         background-color: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -1918,7 +3261,7 @@ ul li.active a {
         font-size: 10px;
         line-height: 34px;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 28px;
 
         color: #FFFFFF;
         background-color: transparent;
@@ -1933,7 +3276,7 @@ ul li.active a {
         margin: 100px;
         margin-top: 70px;
         margin-left: 30px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
 
         color: #FFFFFF;
         background-color: transparent;
@@ -1944,11 +3287,37 @@ ul li.active a {
         width: auto;
         height: 35px;
         left: 55px;
-        top: 215px;
+        top: 195px;
         background-color: transparent;
     }
 
     /* EndHomeVideoder */
+    /* Aplikasi SaveFrom */
+    .aplikasi h3 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 10px;
+        margin: 20px;
+        margin-left: 105px;
+        margin-top: -43px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .appsavefrom img {
+        position: absolute;
+        width: auto;
+        height: 35px;
+        left: 131px;
+        top: 193px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* End Aplikasi SaveFrom */
     /* End Aplikasi */
     /* Gambar */
     .gambar ul {
@@ -1956,7 +3325,7 @@ ul li.active a {
         width: 350px;
         height: 200px;
         left: 20px;
-        top: 375px;
+        top: 345px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -1994,12 +3363,43 @@ ul li.active a {
         font-size: 10px;
         line-height: 34px;
         text-align: center;
-        margin-top: 110px;
+        margin-top: 12px;
 
         color: #FFFFFF;
         background-color: transparent;
     }
 
+    /* Homeiobitrecorder */
+    .gambar h2 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 10px;
+        margin: 100px;
+        margin-top: 68px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .gambar h3 {
+        display: none;
+    }
+
+    .iobitrcexe img {
+        position: absolute;
+        width: auto;
+        height: 40px;
+        left: 57px;
+        top: 415px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* EndHomeiobitrecorder */
     /* End Gambar */
     /* End Index atau Home */
 
@@ -2033,8 +3433,78 @@ ul li.active a {
         border-radius: 5px;
     }
 
-    /* Aplikasi Videoder */
-    .halvideoderapp ul {
+    /* Aplikasi SaveFrom */
+    .halsavefromapp ul {
+        position: absolute;
+        width: 85px;
+        height: 85px;
+        left: 20px;
+        top: 200px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .halsavefromapp h1 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 11px;
+        margin: 5px;
+        margin-top: 62px;
+        margin-left: 17px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .halsavefromapp h2 {
+        display: none;
+    }
+
+    .halappsavefrom img {
+        position: absolute;
+        width: auto;
+        height: 45px;
+        left: 40px;
+        top: 212px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* End Aplikasi SaveFrom */
+    /* End Halaman Aplikasi */
+
+
+    /* Halaman Gambar */
+
+    .halslidepc ul {
+        position: absolute;
+        width: 350px;
+        height: 95px;
+        left: 20px;
+        top: 90px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .sliderpicture img {
+        position: absolute;
+        width: 320px;
+        height: auto;
+        left: 35px;
+        top: 102px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Iobit Screen Recorder exe */
+    .haliobitrecpc ul {
         position: absolute;
         width: 350px;
         height: 76px;
@@ -2046,79 +3516,53 @@ ul li.active a {
         border-radius: 10px;
     }
 
-    .halvideoderapp h1 {
+    .haliobitrecpc h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
-        font-size: 12px;
+        font-size: 14px;
         margin: 20px;
-        margin-top: 12px;
-        margin-left: 85px;
+        margin-top: 10px;
+        margin-left: 80px;
         margin-bottom: 5px;
 
         color: #FFFFFF;
         background-color: transparent;
     }
 
-    .halvideoderapp h2 {
+    .haliobitrecpc h2 {
         display: none;
     }
 
-    .halvideoderapp h3 {
+    .haliobitrecpc h3 {
         display: flex;
     }
 
-    .halvideoderapp h3 {
+    .haliobitrecpc h3 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 10px;
         margin: 20px;
-        margin-left: 85px;
+        margin-left: 80px;
         margin-top: 0px;
         font-weight: 100;
 
         color: #FFFFFF;
+
         background-color: transparent;
     }
 
-    .halappvideoder img {
+    .halpciobitscreen img {
         position: absolute;
         width: auto;
-        height: 45px;
-        left: 42px;
-        top: 216px;
+        height: 55px;
+        left: 35px;
+        top: 210px;
         background-color: transparent;
     }
 
-    /* End Aplikasi Videoder */
-    /* End Halaman Aplikasi */
-
-
-    /* Halaman Gambar */
-    .halgambar ul {
-        position: absolute;
-        width: 350px;
-        height: 838px;
-        left: 20px;
-        top: 95px;
-
-        background: #252734;
-        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
-        border-radius: 10px;
-    }
-
-    .sliderpicture img {
-        position: absolute;
-        width: 278px;
-        height: auto;
-        left: 55px;
-        top: 115px;
-        background-color: transparent;
-
-        border-radius: 5px;
-    }
-
+    /* End Iobit Screen Recorder exe */
     /* End Halaman Gambar */
 
 
@@ -2338,6 +3782,212 @@ ul li.active a {
 
     /* End Link Videoder */
     /* End Aplikasi Videoder */
+
+    /* Aplikasi SaveFrom */
+    .backgroundlsavefrom ul {
+        display: none;
+    }
+
+    .savefrom ul {
+        position: absolute;
+        width: 350px;
+        height: 1300px;
+        left: 20px;
+        top: 90px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .savefrom h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 15px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 90;
+        font-size: 10px;
+        line-height: 19px;
+        margin: 15px;
+        margin-top: 90px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p span {
+        font-style: normal;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .savefrom h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .logosavefrom img {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 170px;
+        top: 155px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Tampilan SaveFrom */
+    .savefrom1 img {
+        position: absolute;
+        width: auto;
+        height: 215px;
+        left: 140px;
+        top: 370px;
+        background-color: transparent;
+    }
+
+    .savefrom2 img {
+        position: absolute;
+        width: auto;
+        height: 215px;
+        left: 140px;
+        top: 600px;
+        background-color: transparent;
+    }
+
+    .savefrom3 img {
+        position: absolute;
+        width: auto;
+        height: 250px;
+        left: 55px;
+        top: 833px;
+    }
+
+    /* End Tampilan SaveFrom */
+    /* Link SaveFrom */
+    .savefromtutor ul {
+        position: absolute;
+        width: 385px;
+        height: 15px;
+        left: 0px;
+        top: 1100px;
+        background-color: transparent;
+    }
+
+    .savefromtutor a {
+        font-size: 13px;
+        background-color: transparent;
+        color: #22A2FF;
+    }
+
+    .savefromtutor h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        background-color: transparent;
+        margin-bottom: 5px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .savefromtutor h2 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor h3 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .savefromtutor h4 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor p {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 12px;
+        background-color: transparent;
+        margin-top: 10px;
+
+        color: #FFFFFF;
+    }
+
+    .thumbnailsave img {
+        position: absolute;
+        width: auto;
+        height: 75px;
+        left: 40px;
+        top: 1240px;
+    }
+
+    .savefrom a h3 {
+        background-color: transparent;
+    }
+
+    .savefrom a h3 p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 20px;
+        margin-left: 170px;
+        margin-top: 900px;
+
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    /* End Link SaveFrom */
+    /* End Aplikasi SaveFrom */
 }
 
 @media (max-width: 400px) {
@@ -2434,6 +4084,12 @@ ul li.active a {
 
     /* End Navbar */
 
+    /* Banner Channel */
+    .bannerchannel img {
+        display: none;
+    }
+
+    /* End Banner Channel */
 
     /* Tombol Subscribe */
     .buttom {
@@ -2441,7 +4097,7 @@ ul li.active a {
         width: 107px;
         height: 33.21px;
         left: 125px;
-        top: 95px;
+        top: 88px;
         background-color: transparent;
     }
 
@@ -2457,12 +4113,106 @@ ul li.active a {
         transition: 0.6s ease;
     }
 
+    .buttomsubs {
+        position: absolute;
+        width: 105px;
+        height: 33.21px;
+        left: 130px;
+        top: 257px;
+        background-color: transparent;
+    }
+
     .btn:hover {
         color: white;
         background-color: gray;
     }
 
     /* End Tombol Subscribe */
+
+
+    /* About */
+    .backgroundabout ul {
+        display: none;
+    }
+
+    .about ul {
+        position: absolute;
+        width: 335px;
+        height: 205px;
+        left: 6px;
+        top: 95px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .about h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 10px;
+        line-height: 23px;
+        text-align: center;
+        margin: 29px;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .saranrequest ul {
+        position: absolute;
+        width: 335px;
+        height: 105px;
+        left: 6px;
+        top: 315px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .saranrequest h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 10px;
+        line-height: 20px;
+        text-align: center;
+        margin: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .copyright ul {
+        position: absolute;
+        width: 335px;
+        height: 35px;
+        left: 6px;
+        top: 435px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .copyright p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100px;
+        font-size: 9px;
+        line-height: 34px;
+        text-align: center;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    /* End About */
 
 
     .backgroundhome {
@@ -2477,7 +4227,7 @@ ul li.active a {
         width: 335px;
         height: 185px;
         left: 6px;
-        top: 135px;
+        top: 120px;
 
         background-color: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -2530,11 +4280,37 @@ ul li.active a {
         width: auto;
         height: 35px;
         left: 35px;
-        top: 195px;
+        top: 185px;
         background-color: transparent;
     }
 
     /* EndHomeVideoder */
+    /* Aplikasi SaveFrom */
+    .aplikasi h3 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 10px;
+        margin: 20px;
+        margin-left: 104px;
+        margin-top: -33px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .appsavefrom img {
+        position: absolute;
+        width: auto;
+        height: 35px;
+        left: 116px;
+        top: 183px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* End Aplikasi SaveFrom */
     /* End Aplikasi */
     /* Gambar */
     .gambar ul {
@@ -2542,7 +4318,7 @@ ul li.active a {
         width: 335px;
         height: 185px;
         left: 6px;
-        top: 355px;
+        top: 325px;
 
         background: #252734;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
@@ -2580,12 +4356,47 @@ ul li.active a {
         font-size: 10px;
         line-height: 34px;
         text-align: center;
-        margin-top: 95px;
+        margin-top: 15px;
 
         color: #FFFFFF;
         background-color: transparent;
     }
 
+    /* Homeiobitrecorder */
+    .gambar h2 {
+        display: none;
+    }
+
+    .gambar h3 {
+        display: flex;
+    }
+
+    .gambar h3 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 10px;
+        margin: 100px;
+        margin-top: 68px;
+        margin-left: 25px;
+        margin-bottom: 0px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .iobitrcexe img {
+        position: absolute;
+        width: auto;
+        height: 40px;
+        left: 33px;
+        top: 390px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* EndHomeiobitrecorder */
     /* End Gambar */
     /* End Index atau Home */
 
@@ -2618,8 +4429,78 @@ ul li.active a {
         border-radius: 5px;
     }
 
-    /* Aplikasi Videoder */
-    .halvideoderapp ul {
+    /* Aplikasi SaveFrom */
+
+    .halsavefromapp ul {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 6px;
+        top: 192px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .halsavefromapp h1 {
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        margin: 5px;
+        margin-top: 57px;
+        margin-left: 12px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .halsavefromapp h2 {
+        display: none;
+    }
+
+    .halappsavefrom img {
+        position: absolute;
+        width: auto;
+        height: 45px;
+        left: 23px;
+        top: 202px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* End Aplikasi SaveFrom */
+    /* End Halaman Aplikasi */
+
+
+    /* Halaman Gambar */
+    .halslidepc ul {
+        position: absolute;
+        width: 335px;
+        height: 85px;
+        left: 6px;
+        top: 90px;
+
+        background: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .sliderpicture img {
+        position: absolute;
+        width: 305px;
+        height: auto;
+        left: 21px;
+        top: 100px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Iobit Screen Recorder exe */
+    .haliobitrecpc ul {
         position: absolute;
         width: 335px;
         height: 77px;
@@ -2631,13 +4512,13 @@ ul li.active a {
         border-radius: 10px;
     }
 
-    .halvideoderapp h1 {
+    .haliobitrecpc h1 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
         font-size: 12px;
         margin: 20px;
-        margin-top: 11px;
+        margin-top: 13px;
         margin-left: 80px;
         margin-bottom: 5px;
 
@@ -2645,15 +4526,15 @@ ul li.active a {
         background-color: transparent;
     }
 
-    .halvideoderapp h2 {
+    .haliobitrecpc h2 {
         display: none;
     }
 
-    .halvideoderapp h3 {
+    .haliobitrecpc h3 {
         display: flex;
     }
 
-    .halvideoderapp h3 {
+    .haliobitrecpc h3 {
         text-decoration: none;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-style: normal;
@@ -2664,46 +4545,20 @@ ul li.active a {
         font-weight: 100;
 
         color: #FFFFFF;
+
         background-color: transparent;
     }
 
-    .halappvideoder img {
+    .halpciobitscreen img {
         position: absolute;
         width: auto;
-        height: 45px;
-        left: 24px;
-        top: 209px;
+        height: 55px;
+        left: 20px;
+        top: 203px;
         background-color: transparent;
     }
 
-    /* End Aplikasi Videoder */
-    /* End Halaman Aplikasi */
-
-
-    /* Halaman Gambar */
-    .halgambar ul {
-        position: absolute;
-        width: 335px;
-        height: 838px;
-        left: 6px;
-        top: 95px;
-
-        background: #252734;
-        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
-        border-radius: 10px;
-    }
-
-    .sliderpicture img {
-        position: absolute;
-        width: 278px;
-        height: auto;
-        left: 35px;
-        top: 105px;
-        background-color: transparent;
-
-        border-radius: 5px;
-    }
-
+    /* End Iobit Screen Recorder exe */
     /* End Halaman Gambar */
 
 
@@ -2923,6 +4778,211 @@ ul li.active a {
 
     /* End Link Videoder */
     /* End Aplikasi Videoder */
+
+    /* Aplikasi SaveFrom */
+    .backgroundlsavefrom ul {
+        display: none;
+    }
+
+    .savefrom ul {
+        position: absolute;
+        width: 335px;
+        height: 1330px;
+        left: 6px;
+        top: 90px;
+
+        background-color: #252734;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+
+    .savefrom h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 34px;
+        text-align: center;
+        margin-top: 15px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 90;
+        font-size: 10px;
+        line-height: 19px;
+        margin: 13px;
+        margin-top: 90px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .savefrom p span {
+        font-style: normal;
+        background-color: transparent;
+    }
+
+    .savefrom h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .logosavefrom img {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 147px;
+        top: 155px;
+        background-color: transparent;
+
+        border-radius: 5px;
+    }
+
+    /* Tampilan SaveFrom */
+    .savefrom1 img {
+        position: absolute;
+        width: auto;
+        height: 214px;
+        left: 115px;
+        top: 370px;
+        background-color: transparent;
+    }
+
+    .savefrom2 img {
+        position: absolute;
+        width: auto;
+        height: 214px;
+        left: 115px;
+        top: 600px;
+        background-color: transparent;
+    }
+
+    .savefrom3 img {
+        position: absolute;
+        width: auto;
+        height: 249px;
+        left: 33px;
+        top: 833px;
+    }
+
+    /* End Tampilan SaveFrom */
+    /* Link SaveFrom */
+    .savefromtutor ul {
+        position: absolute;
+        width: 370px;
+        height: 15px;
+        left: -12px;
+        top: 1120px;
+        background-color: transparent;
+    }
+
+    .savefromtutor a {
+        font-size: 13px;
+        background-color: transparent;
+        color: #22A2FF;
+    }
+
+    .savefromtutor h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 16px;
+        background-color: transparent;
+        margin-bottom: 5px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .savefromtutor h2 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor h3 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .savefromtutor h4 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
+        background-color: transparent;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .savefromtutor p {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 12px;
+        background-color: transparent;
+        margin-top: 10px;
+
+        color: #FFFFFF;
+    }
+
+    .thumbnailsave img {
+        position: absolute;
+        width: auto;
+        height: 75px;
+        left: 29px;
+        top: 1291px;
+    }
+
+    .savefrom a h3 {
+        background-color: transparent;
+    }
+
+    .savefrom a h3 p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 12px;
+        margin: 10px;
+        margin-left: 170px;
+        margin-top: 950px;
+
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+
+    /* End Link SaveFrom */
+    /* End Aplikasi SaveFrom */
 }
 
 /* End Web Responsive */
